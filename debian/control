@@ -1,0 +1,12 @@
+Source: bespoke
+Maintainer: Asal Mirzaieva <asa.mirzaieva@canonical.com>
+Section: misc
+Priority: optional
+Standards-Version: 3.9.2
+Build-Depends: debhelper (>= 13)
+
+Package: bespoke
+Architecture: amd64
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Software modular synth 
+ A software modular synth. You can find the most recent builds for Mac/Windows/Linux at http://bespokesynth.com.
